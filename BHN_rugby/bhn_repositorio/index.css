@@ -1,0 +1,164 @@
+.h3	{color: #FFEB3B; font-size: 100%}
+.div1 {color: #FFFFFF; font-size: 90%}
+.p {color: #FFFFFF;}
+.body { font-family: 'Mitr', sans-serif; background-color: #2196F3}
+header {
+  background-color: #1976D2;
+}
+footer {text-align: center; background-color: #757575;}
+
+/*MENU*/
+
+.footernav{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imgwebellis {
+  width: 300px;
+  height: 100px;
+  border-left: solid #FFFFFF;
+  padding-left: 100px;
+}
+
+.divcontact {
+  margin: 30px 30px 30px 30px;
+}
+/*inicio*/
+.imgindex {
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin: 15px 20px 15px 20px;
+  border: solid 5px;
+}
+
+.imgindex:hover {
+  transform: scale(1.25,1);
+}
+.divnoticias {
+  display: flex;
+  flex-direction: row;
+}
+
+.divhorarios {
+  margin-left: 280px;
+  margin-bottom: 20px;
+}
+
+
+/*fixture*/
+table {
+  border-collapse: collapse;
+  color: #BBDEFB;
+}
+
+th {
+  border: solid 3px;
+  color: #BBDEFB;
+}
+
+td {
+  border: solid 1px;
+  color: #BBDEFB;
+}
+.divposiciones {
+  margin-left: 380px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.divfixt {
+  display: inline-block;
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+}
+ .fixtitle {
+  color: #BBDEFB;
+  border: solid 3px;
+}
+
+/*historiayvalores*/
+
+.divhistval {
+  display: grid;
+  grid-template-areas: 
+  "historia historia historia"
+  "historia historia historia"
+  "compromiso respeto humildad";
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 3fr 3fr 3fr;
+  margin-bottom: 50px;
+}
+
+.divhistoria {
+  grid-area: historia;
+}
+
+.compromiso {
+  grid-area: compromiso;
+}
+
+.respeto {
+  grid-area: respeto;
+}
+
+.humildad {
+  grid-area: humildad;
+}
+
+.h1historiatitle {
+  text-align: center;
+  color: #FFEB3B;
+  background-color: #757575;
+}
+.phistoria {
+  color: #BBDEFB;
+  text-align: center;
+}
+
+.h1valores {
+  text-align: center;
+  color: #FFEB3B;
+  background-color: #757575;
+}
+
+.pvalor {
+  color: #BBDEFB;
+  text-align: center;
+}
+
+/*contacto y ubicacion*/
+.divcontactubi {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.divmap {
+  text-align: center;
+}
+
+.divform {
+  width: 300px;
+  height: 300px;
+  padding-left: 100px;
+  border-left: solid #FFFFFF;
+}
+
+iframe {
+  height: 450px ;
+  width: 700px;
+}
+/*galeria*/
+
+.divgaleria {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
